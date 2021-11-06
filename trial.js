@@ -8,7 +8,7 @@ var myCont = document.getElementById("Contact");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop = 0 || document.documentElement.scrollTop >= 1) {
+  if (document.documentElement.scrollTop >= 1) {
     mybutton.style.display = "block";
     myintro.style.display = "block";
     myEdu.style.display = "block";
