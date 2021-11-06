@@ -1,0 +1,194 @@
+.top-container{
+    background-color: #4d6d9a;
+    color: black;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+    height: 7.5in;
+}
+.page{
+    animation: transitionIn 2s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.left-leave{
+    position: absolute;
+    width: 20%;
+    left:0%;
+    top: 0%;
+}
+hr {
+    border:dotted #b93850 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.photo{
+    width: 500px;
+}
+
+.middle-container{
+
+    position: relative;
+    padding-top: 100px;
+    background-color: #99ced3;
+}
+
+.nameplate{
+
+    right: 50%;
+}
+.right-leave{
+    position: absolute;
+    width: 20%;
+    right: 0%;
+    top: 0%;
+}
+.myproj{
+    text-align: center;
+}
+.tree{
+    padding-top: 145px;
+    height: 4in;
+
+}
+.pro{
+    text-decoration: underline;
+}
+#name{
+    
+    font-size: 90px;
+    margin: 0%;
+}
+
+.profile{
+    text-align: center;
+    font-size: 2rem;
+  font-weight: normal;
+}
+.myskills{
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    background-color: #86b3d1;
+}
+
+.ach{
+    text-align: center;
+    background-color: #edb5bf;
+}
+.email{
+    width: 150px;
+}
+
+.bottom-container{
+    padding-top: 0%;
+    text-align: center;
+    background-color: #99ced3;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 500px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .mitphoto{
+      width: 20%;
+      float: right;
+
+       
+  }
+  .NBN{
+      float:left;
+  }
+  .mit{
+      float:right;
+  }
+  
+#myIntro {
+    display: none;
+    position: fixed;
+    bottom: 440px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myIntro:hover {
+    background-color: #555;
+  }
+  
+  #Education {
+    display: none;
+    position: fixed;
+    bottom: 380px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #Education:hover {
+    background-color: #555;
+  }
+
+  
+  #Contact{
+    display: none;
+    position: fixed;
+    bottom: 320px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #Contact:hover {
+    background-color: #555;
+  }
